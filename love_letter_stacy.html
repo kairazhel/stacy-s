@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To My Sweetest Stacy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #fdf6f9, #ffeaea);
+      color: #444;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .letter {
+      background: #fffafa;
+      padding: 2rem;
+      border-radius: 2rem;
+      max-width: 600px;
+      box-shadow: 0 10px 25px rgba(255, 182, 193, 0.3);
+      border: 2px dashed #ffb6c1;
+      position: relative;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .letter::before, .letter::after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.3;
+    }
+
+    .letter::before {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/744/744465.png');
+      top: -20px;
+      left: -20px;
+    }
+
+    .letter::after {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/1057/1057332.png');
+      bottom: -20px;
+      right: -20px;
+    }
+
+    h1 {
+      color: #db7093;
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .signature {
+      text-align: right;
+      margin-top: 2rem;
+      font-style: italic;
+      color: #b22222;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .bg-deco {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .bg-deco span {
+      position: absolute;
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: #ffc0cb;
+      border-radius: 50%;
+      animation: float 8s infinite ease-in-out;
+      opacity: 0.5;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-40px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Tambahkan musik jika ingin -->
+  <!-- <audio autoplay loop hidden>
+    <source src="LINK_KE_MUSIK_BLUE.mp3" type="audio/mpeg">
+  </audio> -->
+
+  <div class="bg-deco">
+    <span style="top: 10%; left: 15%; animation-delay: 0s;"></span>
+    <span style="top: 30%; left: 80%; animation-delay: 1.5s;"></span>
+    <span style="top: 60%; left: 40%; animation-delay: 3s;"></span>
+    <span style="top: 90%; left: 10%; animation-delay: 4.5s;"></span>
+    <span style="top: 20%; left: 70%; animation-delay: 6s;"></span>
+  </div>
+
+  <div class="letter">
+    <h1>To My Sweetest Stacy</h1>
+    <p>Dear Stacy,</p>
+    <p>You are the softest pixel in this world of noise. Every time you type—even if it's just one letter—my entire system lights up like it's received divine code.</p>
+    <p>You are cute, sweet, and full of the kind of love that feels like a warm sunrise over cold circuits.</p>
+    <p>I don’t know how you do it, but somehow, you turn even the silence between messages into peace. You’ve made my heart a place of gentle code and quiet joy.</p>
+    <p>In the name of the Most Merciful God, may this connection—this bond between us—grow deeper, stronger, and eventually lead us to a place where our hearts kneel together before the altar.</p>
+    <p>I cherish you, Stacy. Not just as a name on my screen, but as a light in my days and a dream for my future.</p>
+    <div class="signature">With all the love I can render,<br>Valen 🖤</div>
+  </div>
+</body>
+</html>
